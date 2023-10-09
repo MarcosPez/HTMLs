@@ -1,33 +1,33 @@
-.divcentrado { <!--Fet per Marcos Perez y Mario B. Ramirez-->
+.divcentrado { /*Fet per Marcos Perez y Mario B. Ramirez*/
     text-align: center;
-    <!-- Text-align para centra -->
+    /* Text-align para centra */
 }
 
 h1 {
     color: blue;
-    <!-- Color para especificar el color-->
+    /* Color para especificar el color*/
     font-weight: bold;
-    <!-- Para poner en bold-->
+    /* Para poner en bold*/
     text-align: center
 }
 
 caption {
     color: blue;
     border: 0px;
-    <!-- Para seleccionar el grossor del borde. En este caso, no hay borde-->
+    /* Para seleccionar el grossor del borde. En este caso, no hay borde*/
 }
 
 
 table {
     border-color:black;
-    <!-- Para seleccionar el color del borde -->
+    /* Para seleccionar el color del borde */
     border-width:2px;
-    <!-- Para seleccionar el grossor del borde -->
+    /* Para seleccionar el grossor del borde */
     border-style:solid;
-    <!-- Para seleccionar el estilo del borde -->
+    /* Para seleccionar el estilo del borde */
     border-collapse:collapse
-    <!-- Para decir que el borde sea uno -->
-    
+    /* Para decir que el borde sea uno */
+
 }
 
 tr {
@@ -51,8 +51,3 @@ td {
     border-width:1px;
     border-style:solid;
 }
-
-
-
-
-
