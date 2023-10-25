@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-color:#808080;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.MailiNom {
+    width: 300px;
+}
+
+#Edad {
+    width: 100px;
+}
+
+#Submit {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+}
+
+
+#Submit:hover {
+    background-color: green;
+}
+
+input:focus {
+  background-color: #87CEFA;
+}

@@ -3,35 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Sorteo PS5</title>
+    <link rel="stylesheet" href="EstilsPagines.css">
 </head>
 <body>
 
-    <form action="./QuestionariFet.html" method="get">
+    <form action="./QuestionariFet.html" method="get"> <!--Para iniciar el form-->
         <h1>Sorteamos PS5!!!</h1>
         <h2>¿Quien eres?</h2>
 
-        <label for="NomYApe">Nombre y Apellidos:</label>
-        <input type="text" id="NomYApe" required>
+        <label for="NomYApe">Nombre y Apellidos:</label> <!--Para poner una etiqueta a un atributo-->
+        <input class="MailiNom" type="text" id="NomYApe" required> <!-- Para poner un texto corto-->
         <br>
 
         <label for="Email">Email:</label>
-        <input type="email" id="Email" required>
+        <input class="MailiNom" type="email" id="Email" required> <!-- Para poner un campo que verifique email-->
         <br>
 
         <label for="Edad">Edad:</label>
-        <input type="number" id="Edad" required>
+        <input type="number" id="Edad" required> <!-- Para poner un solo numeros-->
         <br>
 
         <label for="Genero">Genero:</label>
-        <select id="Genero">
-            <option>Masculino</option>
+        <select id="Genero"> <!-- Dropdown-->
+            <option>Masculino</option> <!-- Opción de Dropdown-->
             <option>Femenino</option>
             <option>Prefiero no especificarlo</option>
         </select>
 
         <h2>¿Que harías con la PS5?</h2>
 
-        <input type="checkbox" id="Check1" checked="checked" name="checks">
+        <input type="checkbox" id="Check1" checked="checked" name="checks"> <!-- Opción para Checkbox-->
         <label for="Check1">Jugar</label>
         <br>
 
@@ -45,7 +46,7 @@
 
         <h2>¿Como te has enterado de este sorteo?</h2>
 
-        <input type="radio" checked="checked" id="radio2" name="Radio">
+        <input type="radio" checked="checked" id="radio2" name="Radio"> <!-- Opción para Radio-->
         <label for="radio2">Me he enterado gracias a las Redes Sociales</label>
         <br>
 
@@ -58,11 +59,11 @@
         <br>
 
         <p>Que harías por la PS5:</p>
-        <textarea placeholder="Aquí iria tu explicación" required></textarea>
+        <textarea placeholder="Aquí iria tu explicación" required></textarea> <!--Text de gran longitud-->
         <br>
 
-        <input type="submit" id="Submit">
-        <label for="Submit"></label>
+        <input type="submit" id="Submit" value="Entregar">
+        <label for="Submit"></label> <!--Per entregar el formulari-->
 
     </form>
 
