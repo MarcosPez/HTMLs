@@ -1,28 +1,28 @@
 body {
-    text-align: center;
-    background-color:#808080;
-    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center; /* Centrar en nuestra pantalla la encuesta en global*/
+    background-color:#808080; /* Escojemos el color con la gamma RGB*/
+    font-family: "Lucida Console", "Courier New", monospace; /*Ponemos una letra diferente a la predeterminada*/
 }
 
 .MailiNom {
-    width: 300px;
+    width: 300px;  /*Para ampliar el recuadro de respuesta en mail i nom*/
 }
 
 #Edad {
-    width: 100px;
+    width: 100px;  /*Para reducir el recuadro de respuesta*/
 }
 
 #Submit {
-    width: 100px;
+    width: 100px;  /*Para ajustar la medida del recuadro*/
     height: 50px;
-    background-color: blue;
+    background-color: blue; /*Cambiar el color del boton*/
 }
 
 
 #Submit:hover {
-    background-color: green;
+    background-color: green; /*Modificar el color del Submit*/
 }
 
 input:focus {
-  background-color: #87CEFA;
+  background-color: #87CEFA; /* Este comando sirve para cuando tengamos el cursor encima de alguna pregunta, ese cambie de color*/
 }
