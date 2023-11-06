@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: rgba(90, 22, 57, 0.8);
+    text-align:center;
+    position: fixed; /* Per a que sempre es pugui veure */
+    left: 1; /* Localització del left */
+    top: 1; /* Localització del top */
+    width: 100%;
+    color: white;
+}
+
+nav {
+    color: white;
+    text-align:center;
+    position: sticky; /* Per a que es quedi fix en un lloc */
+    top: 3.5em;
+}
+
+a {
+    color: white;
+}
+
+main {
+    margin: 30px; /* Per posar un marge */
+    padding: 20px; /* Per posar un farcit */
+}
+
+#Section1Contingut {
+    background-color:rgba(130, 112, 147, 0.44);
+    padding: 1px;
+    padding-left:10px; /* Per posar un farcit a la esquerra*/
+    margin:10px;
+}
+
+#Section2Contingut {
+    background-color:rgba(235, 149, 106, 0.44);
+    padding: 1px;
+    padding-left:10px;
+    margin:10px;
+}
+
+#Section3Contingut {
+    background-color:rgba(240, 68, 246, 0.4);
+    padding: 1px;
+    padding-left:10px;
+    margin:10px;
+}
+
+footer {
+    background-color: rgba(90, 22, 57, 0.8);
+    color: white;
+    text-align:center;
+}
+
+
