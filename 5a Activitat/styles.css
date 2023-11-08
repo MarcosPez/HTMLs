@@ -5,11 +5,13 @@ body {
 header {
     background-color: rgba(90, 22, 57, 0.8);
     text-align:center;
-    position: fixed; /* Per a que sempre es pugui veure */
-    left: 1; /* Localització del left */
-    top: 1; /* Localització del top */
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: -111px;
     width: 100%;
-    color: white;
 }
 
 nav {
